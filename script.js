@@ -51,9 +51,9 @@ function handleClick(e) {
 
 function endGame(draw) {
   if (draw) {
-    winningMessageTextElement.innerText = "Draw!";
+    winningMessageTextElement.innerText = "Berabere!";
   } else {
-    winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} Wins!`;
+    winningMessageTextElement.innerText = `${circleTurn ? "O" : "X"} Kazandı!`;
   }
   winningMessageElement.classList.add("show");
 }
